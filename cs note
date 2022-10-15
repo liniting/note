@@ -47,7 +47,7 @@ gzip格式:
  tac從最後一行 開始顯示
   tac -r -s 'x\|[^x]' test.log→一個接著一個字符的反轉一個文件
   -r→將分隔符為基  礎正規表達是處理
-  -s→使用String作為分 隔符代替默認的換行符
+  -s→使用String作為分隔符代替默認的換行符
  more一頁一頁的顯示檔案內容
   more +20 testfile→從第20行開始顯示testfile的文檔內容
   ENTER：向下n行(default為1行)
